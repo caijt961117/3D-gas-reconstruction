@@ -1,0 +1,42 @@
+{
+  "views": [
+    {
+      "view_name": "view_07",
+      "point_user": [
+        40,
+        20,
+        40
+      ],
+      "mat": "D:\\Desktop\\gh\\data\\view_07_user_40_20_40.mat"
+    },
+    {
+      "view_name": "view_02",
+      "point_user": [
+        20,
+        0,
+        30
+      ],
+      "mat": "D:\\Desktop\\gh\\data\\view_02_user_20_0_30.mat"
+    }
+  ],
+  "model": {
+    "name": "two_view_previous",
+    "iterations": 300,
+    "solver_config": {
+      "huber_delta": 0.06,
+      "lambda_temporal": 0.0,
+      "lambda_support": 0.0,
+      "tolerance": 2e-05,
+      "kkt_tolerance": 0.0002,
+      "step_safety": 0.92,
+      "power_iterations": 20,
+      "restart": true,
+      "backtracking": true,
+      "max_backtracking": 25,
+      "lambda_tv": 4e-06,
+      "lambda_l2": 1e-06,
+      "log_every": 25
+    }
+  },
+  "geometry": "parallel"
+}
